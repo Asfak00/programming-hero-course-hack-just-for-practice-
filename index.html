@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/4518a9ec8f.js"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <title>Programming Hero Course Hack</title>
+  </head>
+
+  <body>
+    <!-- navbar  start -->
+    <header>
+      <nav class="nav">
+        <div class="brand-area container">
+          <a href="index.html" class="brand">
+            <img src="./photo/logo.png" alt="programming hero Logo" />
+          </a>
+        </div>
+        <div class="text">
+          <span>Programming Hero</span>
+        </div>
+      </nav>
+    </header>
+    <!-- navbar end start -->
+
+    <!-- main start -->
+    <section class="main">
+      <!-- course details start -->
+      <div id="flex">
+        <div class="milestoneDetails">
+          <img
+            class="milestoneImage"
+            id="milestoneImage"
+            src="./photo/photo1.png"
+            alt="" />
+
+          <h1 class="title" id="title"></h1>
+          <p class="details" id="details"></p>
+        </div>
+
+        <!-- course details end -->
+
+        <!-- all milestones & modules start -->
+        <div class="milestones" id="milestones">
+          <div class="milestone border-b">
+            <div class="flex">
+              <div class="checkbox" id="checkbox">
+                <input type="checkbox" />
+              </div>
+              <div>
+                <p id="Milestone-name">
+                  <span><i class="fas fa-chevron-down"></i></span>
+                </p>
+              </div>
+            </div>
+            <div class="hidden-panel">
+              <div class="module border-b">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="completed-milestone">Completed Milestone :</p>
+      <div class="doneList" id="doneList"></div>
+      <!-- all milestones and modules end -->
+    </section>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

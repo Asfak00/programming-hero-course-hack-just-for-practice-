@@ -1,0 +1,69 @@
+@media screen and (max-width: 360px) {
+  .nav {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  header .nav img {
+    width: 30px;
+    padding-top: 0.4rem;
+  }
+
+  .text {
+    font-size: 11px;
+    margin-top: 0.9em;
+  }
+
+  .main {
+    padding: 1rem;
+  }
+
+  #flex {
+    display: block;
+  }
+
+  .milestoneDetails {
+    width: 100%;
+    height: auto;
+  }
+
+  .milestoneDetails h1 {
+    font-size: 18px;
+  }
+
+  .milestoneDetails p {
+    font-size: 13px;
+  }
+
+  .title,
+  .details {
+    margin: 0.5rem;
+  }
+
+  i {
+    font-size: 11px;
+  }
+
+  .milestoneDetails img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .milestones {
+    width: 100%;
+    margin-left: 0rem;
+  }
+
+  .completed-milestone {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  .doneList {
+    width: 100%;
+    height: 150px;
+    overflow: scroll;
+    margin-bottom: 1rem;
+  }
+}
